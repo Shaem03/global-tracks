@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  globaltracks:
+    build: ./flask-app
+    ports:
+      - "2000:5000"
